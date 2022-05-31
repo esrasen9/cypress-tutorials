@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import SideNav from './components/SideNav/SideNav';
 import Habit from "./components/Habit/Habit"
