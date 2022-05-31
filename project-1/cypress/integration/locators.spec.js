@@ -53,4 +53,10 @@ describe("Locators", () => {
     // Combine with get
     cy.get("button.btn-1").contains("Button in Form");
   });
+
+  it("Locating elements with find", () => {
+    // Find child element
+    cy.get("#form-1").find(".btn-1");
+    cy.get("span").find(".Elements-btn");
+  });
 });
