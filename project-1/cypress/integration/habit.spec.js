@@ -1,4 +1,4 @@
-describe("habit dashboard tests", () => {
+describe("Habit dashboard tests", () => {
   beforeEach(() => {
     cy.visit("/habits");
     cy.contains("#habit-add-btn", "Add").click();
