@@ -56,14 +56,14 @@ export default function App() {
               onChange={(e) => setTodoInput(e.target.value)}
             />
             <br />
-            <button type="submit">Submit</button>
+            <button data-cy="add-todo-btn" type="submit">Submit</button>
           </form>
 
           <ul>
             {todos.map((todo) => {
               const { id, title, selected } = todo;
               return (
-                <li key={id}>
+                <li key={id} data-cy={`todo-${title}`}>
                   <label
                     className={selected ? "todoText" : null}
                     htmlFor={`todoToggle${id}`}
