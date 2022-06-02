@@ -1,4 +1,4 @@
-# Cypress Exercises 🛸
+# Cypress Tutorials 🛸
 
 **_This repository has the exercises I used to learn Cypress._** 🕵🏼‍
 
